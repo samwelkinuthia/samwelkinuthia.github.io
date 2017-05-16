@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Oswald|Roboto|Source+Sans+Pro|Ubuntu');
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Baloo', cursive;*/
+
+body {
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  text-align: center;
+  background: url('../img/908235016-featured47wdd2x.jpg')no-repeat center center fixed;
+  opacity: 1;
+  background-color: #c06014;
+  background-blend-mode: luminosity;
+  height: 450px;
+  border: 1px solid black;
+}
+
+.profile {
+  height: 250px;
+  width: 280px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #c06014;
+  box-shadow: 0 0 10px black;
+  ;
+}
+
+.header h1 {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 0 0 3px white;
+}
+
+.header p {
+  font-size: 25px;
+  color: #1a1a1a;
+  text-shadow: 0 0 3px white;
+  margin: 30px;
+}
+
+
+/*BIO*/
+
+.bio {
+  background-color: black;
+  color: white;
+  height: 570px;
+  padding: 50px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#mydetails {
+  padding: 20px;
+  text-align: left;
+}
+
+.bio h1 {
+  color: #c06014;
+}
+
+
+/*projects*/
+
+.projects {
+  background-color: #eddbcd;
+}
+
+.projects img {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  height: 350px;
+}
+
+#blur {
+  display: block;
+  height: auto;
+  width: auto;
+  padding: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c06014;
+}
+
+a:hover .overlay {
+  opacity: 1;
+  color: white;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bolder;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.projects img:hover {
+  box-shadow: 0 0 2px 5px rgba(0, 140, 186, 0.5);
+}
+
+.projects {
+  text-align: center;
+}
+
+.gallerytitle {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.gallerytitle:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid black;
+}
+
+.filter-button {
+  font-size: 25px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.filter-button:hover {
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #c06014;
+  text-align: center;
+  color: white;
+}
+
+.col-md-4 {
+  margin-bottom: 30px;
+}
+
+
+/*INTERESTS DIV*/
+
+.about-me {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 19px;
+}
+
+.about-me h3 {
+  color: #c06014;
+  font-size: 20px;
+}
+
+.interests {
+  background: url('../img/render-of-poses-2.jpg')no-repeat center center fixed;
+  font-weight: 500;
+}
+
+.interests h1 {
+  color: black;
+}
+
+blockquote {
+  background-color: #ededed;
+  color: black;
+}
+
+.hobbies {
+  background-color: #ededed;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+
+footer {
+  text-align: center;
+  color: #f2f2f2;
+  height: 50px;
+
+}
+footer img{
+    height:60px;
+    width:70px;
+    border:0px solid white;
+    border-radius: 50%;
+}
