@@ -8,7 +8,7 @@
 It was written primarily in **html** and the styling accomplished through **css** as the week 1 independent project. It incorporates various html and css elements like **div** and **span**
 
 # Contributer
-The code was written by [Kinuthia Samwel](https://github.com/samwelkinuthia) under the guidance of [moringa school](http://moringaschool.com/).
+The code was written by [Kinuthia Samwel](https://github.com/samwelkinuthia)
 
 # Purpose
 To make a simple webpage portfolio to showcase your skills and share information.
