@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Dosis');
+body{
+  overflow-x: hidden;
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+.container{
+  border:1px solid #f2f2f2;
+  margin-top:70px;
+  background-attachment: fixed;
+  text-align:left;
+  margin-bottom: 70px;
+}
+img{
+  height:500px;
+  width:600px;
+  margin:0;
+  border:0px solid green;
+  box-shadow: 2px 3px 4px black;
+}
+h1{
+  margin:auto;
+  text-align: center;
+}
+#demo{
+  font-family: 'Anton', sans-serif;
+}
+p, li{
+  font-family: 'Dosis', sans-serif;
+  font-size:15px;
+}
+ul li{
+  list-style:none;
+}
+ul{
+  border:1px solid #f2f2f2;
+  padding:20px;
+}
