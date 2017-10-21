@@ -6,17 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kinuthia Samwel</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/scripts.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
   <div class="container">
-  <h1 id="demo"></h1>
-  <b><hr></b>
+    <h1 id="demo"></h1>
+    <b><hr></b>
     <div class="row">
       <div class="col-md-6 col-xs-12">
-        <img src="https://photos-4.dropbox.com/t/2/AABYxvluZo7Lm3o8vbLj0j0MjUDGrZbTt5uSl0wuKYoyaw/12/701746225/jpeg/32x32/1/_/1/2/IMG_1656.JPG/ELSavuQFGCcgBygH/webe2vYWjkcuSt8NxI9pe8KmWIyebbAtfNq8XXBghoc%2CyufV0dGBG54Ev5sgN1e_fx9mOEeuSpAktC4NmZRGgFY?size=1280x960&size_mode=3" class="img-responsive" alt="">
+        <img src="https://photos-4.dropbox.com/t/2/AABYxvluZo7Lm3o8vbLj0j0MjUDGrZbTt5uSl0wuKYoyaw/12/701746225/jpeg/32x32/1/_/1/2/IMG_1656.JPG/ELSavuQFGCcgBygH/webe2vYWjkcuSt8NxI9pe8KmWIyebbAtfNq8XXBghoc%2CyufV0dGBG54Ev5sgN1e_fx9mOEeuSpAktC4NmZRGgFY?size=1280x960&size_mode=3"
+          class="img-responsive" alt="">
+        <div class="contact_me">
+          <h4>Chat with me</h4> <br>
+          <form id="contact-form" action="https://formspree.io/eskay007@yahoo.com" method="post">
+            <input type="text" class="form-control" name="Name" placeholder="Name" required><br>
+            <input type="email" class="form-control" name="Email" placeholder="Email" required><br>
+            <textarea name="Message" class="form-control" cols="30" rows="6" placeholder="Message" required></textarea><br>
+            <!-- CONFIG -->
+            <input class="hidden" type="text" name="_gotcha">
+            <input type="hidden" name="_subject" value="Subject">
+            <input type="hidden" name="_cc" value="email@cc.com">
+            <!-- /CONFIG -->
+            <input class="submit" type="submit" value="Send">
+          </form>
+        </div>
       </div>
       <div class="col-md-6 col-xs-12">
         <br>
@@ -58,6 +72,9 @@
     </div>
   </div>
 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
