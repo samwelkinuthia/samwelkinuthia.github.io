@@ -83,3 +83,7 @@ ul {
 .contact_me h3 {
   font-weight: 900;
 }
+
+#contact-form {
+  display: none;
+}
