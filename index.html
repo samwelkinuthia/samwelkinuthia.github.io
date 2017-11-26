@@ -6,33 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kinuthia Samwel</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Start of Async Drift Code -->
-  <script>
-    ! function() {
-      var t;
-      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-        t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-        t.factory = function(e) {
-          return function() {
-            var n;
-            return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e, n, o, i;
-          e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-        });
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('saci3tem4pxm');
-  </script>
-  <!-- End of Async Drift Code -->
-
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -41,8 +15,7 @@
     <b><hr></b>
     <div class="row">
       <div class="col-md-6 col-xs-12 image-div">
-        <img src="img/me.JPG"
-          class="img-responsive" alt="">
+        <img src="img/me.JPG" class="img-responsive" alt="">
         <div class="contact_me">
           <form id="contact-form" action="https://formspree.io/eskay007@yahoo.com" method="post">
             <h4>Chat with me</h4> <br>
@@ -98,9 +71,9 @@
     </div>
   </div>
 
-
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="build/js/app.js"></script>
 </body>
 
 </html>

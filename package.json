@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samwelkinuthia/samwelkinuthia.github.io.git"
+  },
+  "keywords": [
+    "samwel",
+    "kinuthia",
+    "is",
+    "awesome",
+    "af"
+  ],
+  "author": "Kinuthia Samwel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samwelkinuthia/samwelkinuthia.github.io/issues"
+  },
+  "homepage": "https://github.com/samwelkinuthia/samwelkinuthia.github.io#readme",
+  "devDependencies": {
+    "bower-files": "^4.0.0",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
