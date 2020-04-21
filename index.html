@@ -1,861 +1,686 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
 
 <head>
-  <meta charset="utf-8">
-  <title>Kinuthia Samwel</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="favicon.ico">
-  <!--Google Fonts link-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Samwel Kamanda</title>
 
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/slick.css">
-  <link rel="stylesheet" href="assets/css/slick-theme.css">
-  <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="assets/css/fonticons.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.css">
-  <link rel="stylesheet" href="assets/css/bootsnav.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css" />
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/wired.js"></script>
 
-  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  <!-- =====================GOOGLE ANALYTICS======================== -->
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110400090-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-110400090-1');
-  </script>
-
-  <!-- =========================================DRIFT MESSAGING. DISABLED FOR NOW================================= -->
-
-
-  <!-- <script>
-    ! function() {
-      var t;
-      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-        t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-        t.factory = function(e) {
-          return function() {
-            var n;
-            return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e, n, o, i;
-          e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-        });
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('saci3tem4pxm');
-  </script> -->
-  <!-- End of Async Drift Code -->
 </head>
 
-<body data-spy="scroll" data-target=".navbar-collapse">
-  <div id="loading">
-    <div id="loading-center">
-      <div id="loading-center-absolute">
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-        <div class="object"></div>
-      </div>
-    </div>
-  </div>
-  <!--End off Preloader -->
-  <div class="culmn">
-    <!--Home page style-->
-
-
-    <nav class="navbar navbar-default navbar-fixed white no-background bootsnav text-uppercase">
-
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-          <!-- <a class="navbar-brand" href="index.html">
-                            <img src="assets/images/logog2.png" class="logo logo-display" alt="">
-                            <img src="assets/images/logog.png" class="logo logo-scrolled" alt="">
-                        </a> -->
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-            <li><a href="index.html">home</a></li>
-            <!-- <li><a href="model.html">our models</a></li>
-                            <li><a href="contactus.html">contact</a></li> -->
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-
-
-    </nav>
-
-
-    <!--Home Sections-->
-
-    <section id="hello" class="home bg-mega">
-      <div class="overlay"></div>
-      <div class="container" style="padding-top:40px; padding-bottom:40px;">
-      </div>
-    </section>
-
-
-    <!--About Sections-->
-    <section id="feature" class="feature p-top-100">
-      <div class="container">
-        <div class="row">
-          <div class="main_feature">
-
-            <div class="col-md-6 m-top-120">
-              <!-- Head Title -->
-              <div class="head_title">
-                <h2>Kinuthia Samwel</h2>
-                <h5><em>Software Developer / Human / Astronaut</em></h5>
-                <div class="separator_left"></div>
-              </div>
-              <div class="feature_content wow fadeIn m-top-20">
-                <p>Since my dream of becoming a <b>rockstar</b> didn't quite work out, I turned to coding and now, I am a Full Stack Developer who enjoys working with other techies to make amazing ideas real, solve problems and have fun doing it.
-                </p>
-
-                <!-- <p>currently working at <a href="https://cyclesystem.org">Cycle Systems</a></p> -->
-
-                <p>Enjoys the simple things, like a cup of coffee by the fireplace..(If i had one)</p>
-
-                <!-- <div class="feature_btns m-top-30">
-                                        <a href="" class="btn btn-default text-uppercase">more about us <i class="fa fa-long-arrow-right"></i></a>
-                                    </div> -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="feature_photo wow fadeIn sm-m-top-40">
-                <div class="photo_border"></div>
-                <div class="feature_img">
-                  <img src="assets/images/others/my.jpg" class="me" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--End off row-->
-      </div>
-      <!--End off container -->
-      <br />
-      <br />
-      <br />
-      <br />
-      <hr />
-      <br />
-      <br />
-
-      <div class="container">
-        <div class="row">
-          <div class="main_counter text-center">
-            <div class="col-md-4">
-              <div class="counter_item">
-                <h2 class="statistic-counter"><em> 6 </em></h2>
-                <div class="separator_small"></div>
-                <h5>Projects Finished</h5>
-              </div>
-            </div>
-            <!-- <div class="col-md-4">
-              <div class="counter_item sm-m-top-40">
-                <h2 class="statistic-counter"><em>5</em></h2>
-                <div class="separator_small"></div>
-                <h5>Happy Clients</h5>
-              </div>
-            </div> -->
-            <div class="col-md-4">
-              <div class="counter_item sm-m-top-40">
-                <h2><em>2000+</em></h2>
-                <div class="separator_small"></div>
-                <h5>Lines of code</h5>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="counter_item sm-m-top-40">
-                <h2><em>&infin;</em></h2>
-                <div class="separator_small"></div>
-                <h5>Awesomeness points</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--End off row-->
-      </div>
-      <!--End off container -->
-
-      <br />
-      <br />
-      <br />
-      <hr />
-      <br />
-      <br />
-      <br />
-
-      <!--Our Work Section-->
-      <!-- <div class="container">
-        <div class="row">
-          <div class="main_work">
-            <div class="col-md-7 col-sm-12 col-xs-12">
-              <div class="work_item">
-                <div class="row">
-                  <div class="col-md-7 col-sm-12 col-xs-12">
-                    <div class="work_item_img sm-text-center sm-m-top-40">
-                      <img src="assets/images/others/school.svg" class="img-responsive whatimg" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-md-5 col-sm-12 col-xs-12 text-left pull-left sm-text-center">
-                    <div class="work_item_details m-top-80 sm-m-top-20">
-                      <h4>May - September 2017</h4>
-                      <div class="work_separator2"></div>
-                      <p class="m-top-40 sm-m-top-10">Moringa School: Immersive Software engineering</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="col-md-7 col-md-offset-5 col-sm-12 col-xs-12">
-              <div class="work_item">
-                <div class="row">
-                  <div class="col-md-7 col-sm-12 col-xs-12 text-right pull-right sm-text-center">
-                    <div class="work_item_img sm-m-top-40">
-                      <img src="assets/images/others/study.svg" class="img-responsive whatimg" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-md-5 col-sm-12 col-xs-12 text-right pull-left sm-text-center">
-                    <div class="work_item_details m-top-80 sm-m-top-20">
-                      <h4>2015 - Present</h4>
-                      <div class="work_separator1"></div>
-                      <p class="m-top-40 sm-m-top-10">Jomo Kenyatta University: Pursuing Bachelors in electronics and computer engineering.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-7 col-sm-12 col-xs-12">
-              <div class="work_item">
-                <div class="row">
-                  <div class="col-md-7 col-sm-12 col-xs-12">
-                    <div class="work_item_img sm-text-center sm-m-top-40">
-                      <img src="assets/images/others/music.svg" class="img-responsive whatimg" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-md-5 col-sm-12 col-xs-12 text-left pull-left sm-text-center">
-                    <div class="work_item_details m-top-80 sm-m-top-20">
-                      <h4>1996 - Present</h4>
-                      <div class="work_separator2"></div>
-                      <p class="m-top-40 sm-m-top-10">Living / Eating / Breathing / Adopting Dogs / Dancing / Travelling and all the other doing words ;)</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <br />
-
-      <div class="container">
-        <div class="head_title text-left sm-text-center wow fadeInDown">
-          <h2>What I offer</h2>
-          <h5><em>Just a glimpse of what to expect</em></h5>
-          <div class="separator_left"></div>
-        </div>
-        <div class="row">
-          <div class="service_content_area">
-            <!-- Service LEFT SIDE -->
-            <div class="col-md-4 service_left wow fadeInLeft">
-              <!-- Service -->
-
-              <div class="service_items">
-                <div class="row">
-
-                  <!-- ICON -->
-                  <div class="col-xs-3">
-                    <div class="hexagon">
-                      <div class="about-content">
-                        <span class="fa fa-mobile"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-9">
-                    <div class="text-left service_left_text">
-                      <h4 class="main-color">Responsive web design</h4>
-                      <p>Ensuring your web application performs across all devices.</p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <!-- end Single Service item -->
-
-              <!-- Service -->
-              <div class="service_items">
-                <div class="row">
-                  <!-- ICON -->
-                  <div class="col-xs-3">
-                    <div class="hexagon">
-                      <div class="about-content">
-                        <span class="fa fa-leaf"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-9">
-                    <div class="text-left service_left_text">
-                      <h4 class="main-color">Unique Design</h4>
-                      <p>Make your application stand out from the rest!<p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <!-- end Single Service item -->
-
-              <!-- Service -->
-              <div class="service_items">
-                <div class="row">
-                  <!-- ICON -->
-                  <div class="col-xs-3">
-                    <div class="hexagon">
-                      <div class="about-content">
-                        <span class="fa fa-diamond"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-9">
-                    <div class="text-left service_left_text">
-                      <h4 class="main-color">Quality</h4>
-                      <p>Work that meets standards.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end Single Service item -->
-
-
-            </div>
-            <!-- /END Service LEFT -->
-
-            <!-- PHONE IMAGE -->
-            <div class="col-md-4 sm-m-top-40 sm-text-center">
-              <div class="service-img wow bounceIn">
-                <img src="assets/images/others/astrn.svg" class="img-responsive" style="height:300px; width:350px;" alt="Architect Img">
-              </div>
-            </div>
-
-            <!-- Service RIGHT -->
-            <div class="col-md-4 service_right wow fadeInRight sm-m-top-40">
-
-              <!-- Service -->
-              <div class="service_items">
-                <div class="row">
-
-
-                  <div class="col-xs-9">
-                    <div class="service_right_text p-l-15 text-right">
-                      <h4 class="main-color">And so much more</h4>
-                      <p>catch up more over a cup of coffee..</p>
-                    </div>
-                  </div>
-
-                  <!-- ICON -->
-                  <div class="col-xs-3">
-                    <div class="hexagon">
-                      <div class="about-content">
-                        <span class="fa fa-spinner fa-pulse fa-3x fa-fw"></span>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <!-- end Single Service item -->
-
-
-            </div>
-            <!-- /END Service RIGHT -->
-          </div>
-        </div>
-        <!--End off row -->
-      </div>
-
-    </section>
-    <!--End off About section -->
-
-    <br><br>
-
-
-    <!--Gallery Section-->
-    <section id="gallery" class="gallery margin-top-120 bg-grey">
-      <!-- Gallery container-->
-      <div class="container">
-        <div class="row">
-          <div class="main-gallery roomy-80">
-            <div class="col-md-12">
-              <div class="head_title text-left sm-text-center wow fadeInDown">
-                <h2>Personal Projects</h2>
-                <h5><em>Some of my work is here. Discover them now!</em></h5>
-                <div class="separator_left"></div>
-              </div>
-            </div>
-            <div class="col-md-12 m-bottom-60">
-              <div class="filters-button-group text-right sm-text-center">
-                <button class="button is-checked" data-filter="*">View all</button>
-                <button class="button" data-filter=".javascript">Javascript</button>
-                <button class="button" data-filter=".ruby">Ruby</button>
-                <!-- <button class="button" data-filter=".alkali">Python</button>
-                <button class="button" data-filter=".ar">HTML/CSS</button> -->
-              </div>
-            </div>
-
-            <div style="clear: both;"></div>
-
-            <div class="grid text-center">
-              <div class="grid-item javascript ium col-xs-12">
-                <img alt="" src="assets/images/projects/notify.png">
-                <div class="grid_hover_area text-center">
-                  <div class="grid_hover_text m-top-110">
-                    <h3 class="text-white">Notify</h3>
-                    <h5 class="text-white"><em>A company notification platform</em></h5>
-                    <a href="projects/notify.html" class="text-white m-top-20">View Project <i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid-item metalloid javascript col-xs-12">
-                <img alt="" src="assets/images/projects/colorpick.jpg">
-                <div class="grid_hover_area text-center">
-                  <div class="grid_hover_text m-top-50">
-                    <h3 class="text-white">Color Pick</h3>
-                    <h5 class="text-white"><em>Color picking game.</em></h5>
-                    <a href="projects/colorpick.html" class="text-white m-top-30">View Project <i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid-item post-transition javascript numberGreaterThan50 col-xs-12">
-                <img alt="" src="assets/images/projects/gitfind.png">
-                <div class="grid_hover_area text-center">
-                  <div class="grid_hover_text m-top-50">
-                    <h4 class="text-white">Github finder</h4>
-                    <h5 class="text-white"><em>A github username search engine.</em></h5>
-                    <a href="projects/gitfind.html" class="text-white m-top-20">View Project <i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid-item ruby col-xs-12">
-                <img alt="" src="assets/images/projects/astronomers.jpg">
-                <div class="grid_hover_area text-center">
-                  <div class="grid_hover_text m-top-50">
-                    <h4 class="text-white">Astronomers</h4>
-                    <h5 class="text-white"><em>News forum for space nerds.</em></h5>
-                    <a href="projects/astronomers.html" class="text-white m-top-40">View Project <i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid-item post-transition javascript ium col-xs-12">
-                <img alt="" src="assets/images/projects/nasa.jpg">
-                <div class="grid_hover_area text-center">
-                  <div class="grid_hover_text m-top-50">
-                    <h4 class="text-white">Apod</h4>
-                    <h5 class="text-white"><em>View the stars</em></h5>
-                    <a href="projects/apod.html" class="text-white m-top-30">View Project <i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid-item ruby col-xs-12">
-                <img alt="" src="assets/images/projects/emall.png">
-                <div class="grid_hover_area text-center">
-                  <div class="grid_hover_text m-top-40">
-                    <h4 class="text-white">E-Mall</h4>
-                    <h5 class="text-white"><em>1000 malls, right at your fingertips</em></h5>
-                    <a href="projects/emall.html" class="text-white m-top-40">View Project <i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div style="clear: both;"></div>
-
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section class="models roomy-80">
-      <div class="container">
-        <div class="row">
-          <div class="main_models text-center">
-            <div class="col-md-12">
-              <div class="head_title text-left sm-text-center wow fadeInDown">
-                <h2>My Skills :)</h2>
-              </div>
-            </div>
-
-            <div class="col-md-12">
-              <div class="head_title text-left sm-text-center wow fadeInDown">
-                <h5><em>Languages</em></h5>
-                <div class="separator_left"></div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/javascript.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/ruby.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <!-- <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/typescript.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div> -->
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/html.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/css.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <!-- <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/python.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div> -->
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/sass.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <div class="col-md-12">
-              <br><br>
-              <div class="head_title text-left sm-text-center wow fadeInDown">
-                <br><br>
-                <h5><em>Frameworks</em></h5>
-                <div class="separator_left"></div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/rails.png" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/angular2.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/ionic.png" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <!-- <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/node.png" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div> -->
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/bootstrap.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/shoelace.svg" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-
-
-
-            <div class="col-md-12">
-              <br><br>
-              <div class="head_title text-left sm-text-center wow fadeInDown">
-                <br><br>
-                <h5><em>Database</em></h5>
-                <div class="separator_left"></div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/postgre.png" class="skill_img img-responsive" alt="" />
-                </div>
-              </div>
-            </div>
-            <!-- End off col-md-3 -->
-            <!-- End off col-md-3 -->
-            <!-- <div class="col-md-3 col-sm-6">
-              <div class="model_item m-top-30">
-                <div class="model_img">
-                  <img src="assets/images/skills/py.png" class="skill_img img-responsive" alt="" />
-                  <div class="model_caption">
-                    <h5 class="text-white">Python</h5>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-            <!-- End off col-md-3 -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Testimonial Section-->
-    <!-- <section id="testimonial" class="testimonial fix roomy-100">
-      <div class="container">
-        <div class="row">
-          <div class="main_testimonial text-center">
-
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active testimonial_item">
-                  <div class="col-sm-10 col-sm-offset-1">
-
-                    <div class="test_authour">
-                      <img class="img-circle" src="assets/images/others/ck.jpg" class="ck" alt="" />
-                      <h6 class="m-top-20">Calvin Kirochi</h6>
-                      <h5><em>Managing Director Gamerz Arena & Forex Arena</em></h5>
-                    </div>
-
-                    <p class=" m-top-40">For the few months that he has worked in our company he has proven to be an asset to the company delivering outstanding work on our different projects on the web. He is very perceptually and meet his target on time, he is a quick self-learn,
-                      he is self-driven and motivated at work hence he does not need supervision and delivers results.
-                      <p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <br>
-    <section id="company" class="company bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="main_company roomy-100 text-center">
-            <h3 class="text-uppercase">Give me a chat</h3>
-            <p>I'm currently available for work. Have a great idea in mind?.. Get in touch below <i class="fa fa-smile-o" aria-hidden="true"></i></p>
-            <p>Wanna know how much a polar bear weighs? also send a message below.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="action" class="action roomy-100">
-      <div class="container">
-        <div class="row">
-          <div class="main_action text-center">
-            <div class="col-md-4">
-              <div class="action_item">
-                <i class="fa fa-map-marker"></i>
-                <h4 class="text-uppercase m-top-20">Address</h4>
-                <p>Nairobi <br /> Nairobi - Kenya</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="action_item">
-                <i class="fa fa-phone"></i>
-                <h4 class="text-uppercase m-top-20">phone</h4>
-                <p>(+254) - 772 - 866 - 567</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="action_item">
-                <i class="fa fa-envelope-o"></i>
-                <h4 class="text-uppercase m-top-20">Email</h4>
-                <p>eskay007@yahoo.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section id="contact" class="contact fix">
-      <div class="container">
-        <div class="row">
-          <div class="main_contact p-top-80">
-
-            <div class="col-md-6 sm-m-top-30">
-              <form class="" id="contact-form" action="https://formspree.io/eskay007@yahoo.com" method="post">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <label>Your Name *</label>
-                      <input id="first_name" name="name" type="text" class="form-control" required>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <label>Your Email *</label>
-                      <input id="email" name="Email" type="email" class="form-control">
-                    </div>
-                  </div>
-                  <input class="hidden" type="text" name="_gotcha">
-                  <input type="hidden" name="_subject" value="Subject">
-                  <input type="hidden" name="_cc" value="email@cc.com">
-
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <label>Your Message *</label>
-                      <textarea class="form-control" name="Message" rows="6" required></textarea>
-                    </div>
-                    <div class="form-group">
-                      <input class="submit btn btn-default" type="submit" value="Send Message ">
-                    </div>
-                  </div>
-
-                </div>
-
-              </form>
-            </div>
-
-            <div class="col-md-6">
-              <div class="contact_img">
-                <img src="assets/images/others/contact.png" class="img-responsive" alt="retro_phone" />
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!--End off Contact Section-->
-    <br><br>
-    <!--Company section-->
-    <div class="scrollup" style="background-color:#33bbff;">
-      <a href="#"><i class="fa fa-chevron-up"></i></a>
-    </div>
-
-    <footer id="footer" class="footer bg-mega">
-      <div class="container">
-        <div class="row">
-          <div class="main_footer p-top-40 p-bottom-30">
-            <div class="col-md-6 text-left sm-text-center">
-              <p class="wow fadeInRight" data-wow-duration="1s">
-                Thanks for visiting! <i class="fa fa-smile-o" aria-hidden="true">
-              </i>
-              </p>
-            </div>
-            <div class="col-md-6 text-right sm-text-center sm-m-top-20">
-              <ul class="list-inline">
-                <li><a href="https://www.gitshowcase.com/samwelkinuthia" target="_blank">Showcase<img src="assets/images/others/logo.png" class="showc img-responsive"/></a></li>
-                <li><a href="https://github.com/samwelkinuthia" target="_blank">Github</a><i class="fa fa-github"></i></li>
-                <li><a href="https://linkedin.com/in/samwel-k" target="_blank">LinkedIn</a><i class="fa fa-linkedin"></i></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    </div>
-
-    <!-- JS includes -->
-
-    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.js"></script>
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/jquery.collapse.js"></script>
-    <script src="assets/js/bootsnav.js"></script>
-
-
-
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-
+<body>
+
+	<!-- Start Preloader Area -->
+	<div class="preloader-area">
+		<div class="loader-box">
+			<div class="loader"></div>
+		</div>
+	</div>
+	<!-- End Preloader Area -->
+
+
+	<!-- Start Header Area -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center d-flex">
+				<div id="logo">
+					<a href="index.html"><img src="img/icon.png" class="icon" alt="" title="" /></a>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class=""><a class="active" href="index.html">Home</a></li>
+						<li><a href="#aboutme">About Me</a></li>
+						<li class=""><a href="#work">Projects</a></li>
+						<li class=""><a href="#workhist">Work</a></li>
+						<li class=""><a href="#skills">Skills</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
+
+
+	<!-- start banner Area -->
+	<section class="home-banner-area">
+		<div class="container">
+			<div class="row fullscreen d-flex align-items-center">
+				<div class="banner-content col-lg-12 col-md-12 justify-content-center ">
+					<wired-spinner spinning duration="3000"></wired-spinner>
+					<wired-card class="me wow fadeInDown">It's me</wired-card>
+					<h1 class="wow fadeInUp">Samwel Kamanda</h1>
+					<div class="designation mb-50 wow fadeInUp">
+						<wired-card elevation="3">
+							Software
+							<span class="designer">Developer</span>
+							and Electronics
+							<span class="developer">Engineer</span>
+
+						</wired-card>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+	<wired-divider></wired-divider>
+	<!-- Start About Area -->
+	<section class="about-area section-gap" id="aboutme">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 about-left">
+					<img class="img-fluid" src="img/es1.jpg" alt="">
+				</div>
+				<div class="col-lg-5 col-md-12 about-right">
+					<div class="section-title">
+						<h2>About me</h2>
+					</div>
+					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
+						<p>
+							I've always wanted to be a <b>Ninja Jedi space wizard</b> but since that didn't work out, I turned to coding and now, I am a Full Stack Developer who enjoys working with other techies to make amazing ideas real, solve problems and have fun
+							doing it.
+
+						</p>
+						<p>
+							I enjoy the simple things, like a cup of tea by the fireplace..<br>(If i had one)
+						</p>
+					</div>
+					<wired-button elevation="3" id="styled">
+						<a href="img/resume.pdf" data-text="Resume">
+							Resume
+						</a>
+					</wired-button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Area -->
+
+
+	<!-- Start Work Area Area -->
+	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
+		<div class="container">
+			<div class="row d-flex justify-content-between align-items-end mb-80">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Projects</h2>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="filters">
+						<ul>
+							<li class="active" data-filter=".all">ALL</li>
+							<li data-filter=".javascript">JAVASCRIPT</li>
+							<li data-filter=".ruby">RUBY ON RAILS</li>
+							<li data-filter=".game">GAMES</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Button trigger modal -->
+
+
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all javascript web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/cycle.png" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>CYCLE</h4>
+								<div class="cat">energy monitoring platform</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".bd-example-modal-lg"></a>
+						</div>
+					</div>
+
+					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/cycle.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>CYCLE</h3>
+									<p>An energy exchange application that combines IOT with solar energy and microgrid technology. Currently ongoing</p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>React Js</li>
+										<li>Node Js</li>
+										<li>IBM bluemix, cloudant and Node Red</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://cyclesystem.org" target="_blank">
+											<wired-button elevation="3">WEB LINK <i class="fa fa-globe"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all javascript wow fadeInUp" data-wow-duration="2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/whiteleaf.png" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>White Leaf Website</h4>
+								<div class="cat">Company website</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".modal2"></a>
+						</div>
+					</div>
+
+					<div class="modal fade modal2 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/whiteleaf.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>WHITE LEAF KENYA</h3>
+									<hr>
+									<p>Company website for white leaf kenya</p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>HTML, CSS, Bootstrap</li>
+										<li>JavaScript</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://whiteleaf.co.ke" target="_blank">
+											<wired-button elevation="3">WEB LINK <i class="fa fa-globe"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all javascript wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/astronomers.jpg" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>APOD</h4>
+								<div class="cat">Astronomical picture of the day</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".modal3"></a>
+						</div>
+					</div>
+
+
+					<div class="modal fade modal3 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/apod.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>APOD</h3>
+									<p>Simple webapp utilizing the NASA Apod Api to show different images every day.</p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>Angular Js</li>
+										<li>Nasa APOD Api</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://nasa-apod.surge.sh">
+											<wired-button elevation="3">
+												WEB LINK <i class="fa fa-globe"></i>
+											</wired-button>
+										</a>
+										<a href="https://github.com/samwelkinuthia" target="_blank">
+											<wired-button elevation="3">GITHUB
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all ruby wow">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/planets1.png" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>Planets</h4>
+								<div class="cat">solar system stuff</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".modal4"></a>
+						</div>
+					</div>
+
+
+					<div class="modal fade modal4 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/planets1.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>Planets</h3>
+									<p>Simple CRUD app to play god. You can create superclusters > Galaxies > Stars > Planets </p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>Ruby on Rails</li>
+										<li>Postgres Database</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://github.com/samwelkinuthia" target="_blank">
+											<wired-button elevation="3">GITHUB
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design javascript wow" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/support.png" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>White Leaf Support</h4>
+								<div class="cat">Learn more..</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".modal5"></a>
+						</div>
+					</div>
+
+					<div class="modal fade modal5 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/support.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>White leaf support</h3>
+									<p>Support portal for white leaf kenya.</p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>Adonis Js Framework</li>
+										<li>MySQL</li>
+										<li>Heroku Hosting</li>
+										<li>Mailgun emailing service</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://whiteleaf.herokuapp.com/" target="_blank">
+											<wired-button elevation="3">WEB LINK
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all ruby wow" data-wow-duration="2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/emall.png" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>E-Mall</h4>
+								<div class="cat">Mall directory and api</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".modal6"></a>
+						</div>
+					</div>
+
+					<div class="modal fade modal6 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/mall3.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>EMall</h3>
+									<p>A platform where business owners can add their malls/businesses and their details, as well as manage the stores and spaces inside said businesses. All data is exported via an api.</p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>Ruby on Rails</li>
+										<li>Postgres</li>
+										<li>Heroku Hosting</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://mall3.herokuapp.com" target="_blank">
+											<wired-button elevation="3">WEB LINK
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<a href="https://github.com/samwelkinuthia/E-mall" target="_blank">
+											<wired-button elevation="3">GITHUB
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all game wow" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<wired-image class="image img-fluid" src="img/work/colorpick.jpg" alt=""></wired-image>
+							</div>
+							<div class="middle">
+								<h4>ColorPick</h4>
+								<div class="cat">Color picking game</div>
+							</div>
+							<a class="overlay" data-toggle="modal" data-target=".modal7"></a>
+						</div>
+					</div>
+
+					<div class="modal fade modal7 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<wired-image src="img/work/colorpicker.png" class="project_image"></wired-image>
+								<div class="project_det">
+									<h3>Colorpick</h3>
+									<p>Color selection game based on the RGB color format</p>
+									<p>Made with: </p>
+									<ul class="unordered-list proj_li">
+										<li>JavaScript</li>
+									</ul>
+									<div class="buttons">
+										<a href="https://samwelkinuthia.github.io/Color-Pick/" target="_blank">
+											<wired-button elevation="3">WEB LINK
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<a href="https://github.com/samwelkinuthia/Color-Pick" target="_blank">
+											<wired-button elevation="3">GITHUB
+												<i class="fa fa-github"></i>
+											</wired-button>
+										</a>
+										<wired-card class="x-bt">
+											<i class="fa fa-times" data-dismiss="modal"></i>
+										</wired-card>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Work Area Area -->
+
+
+	<!-- Start Job History Area Area -->
+	<section class="job-area section-gap-top section-gap-bottom-90" id="workhist">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Work History</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Front End Engineer</h4>
+								<p>Cycle Systems, Bogota Colombia</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="2018 to Present">
+									<span>J</span><span>a</span><span>n</span>
+									<span>'</span><span></span><span></span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s">
+							Lead front end engineer in charge of designing the cycle web platform. Job entails user interface design, implementation and optimization.<br> Tech stack used:
+							<ul class="unordered-list">
+								<li>React Js</li>
+								<li>Node Js</li>
+								<li>IBM Cloudant Database</li>
+								<li>GitLab</li>
+								<li>IBM Bluemix</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Web Developer Intern</h4>
+								<p>White Leaf Group, Nairobi Kenya.</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="2019 to Present">
+									<span>S</span><span>e</span><span>p</span>
+									<span>'</span><span>0</span><span>1</span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+							In charge of web maintainance, hosting and server configuration. <br>
+							Tech used: <br>
+							<ul class="unordered-list">
+								<li>Adonis Js</li>
+								<li>MySQL</li>
+								<li>Heroku</li>
+								<li>HTML,CSS,Js</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Job Historyt Area Area -->
+
+	<!-- Start Service Area -->
+	<section class="service-area section-gap" id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Skills</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/git.svg" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/node.png" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/javascript.svg" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/react.png" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/mongo.png" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/ruby.svg" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/rails.png" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/postgre.png" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/heroku.svg" class="skill_img img-responsive" alt="" />
+				</div>
+				<!-- <div class="col-lg-3 col-md-3">
+					<img src="img/skills/angular2.svg" class="skill_img img-responsive" alt="" />
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-3">
+					<img src="img/skills/css.svg" class="skill_img img-responsive" alt="" />
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-3">
+					<img src="img/skills/ionic.png" class="skill_img img-responsive" alt="" />
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-3">
+					<img src="img/skills/html.svg" class="skill_img img-responsive" alt="" />
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-3">
+					<img src="img/skills/bootstrap.svg" class="skill_img img-responsive" alt="" />
+				</div> -->
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/mailgun.png" class="skill_img img-responsive" alt="" />
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/skills/adonis.png" class="skill_img img-responsive" alt="" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Service Area -->
+
+
+	<!-- Start Contact Area -->
+	<section class="contact-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="contact-title">
+						<h2>Contacts</h2>
+						<p>Get in touch with me below</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-80">
+				<div class="col-lg-6 col-md-6">
+					<div class="contact-box">
+						<h4>Email:
+							<a href="mailto:eskay007@yahoo.com" id="email">eskay007@yahoo.com</a>
+						</h4>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="contact-box">
+						<h4>Phone: +254772866567</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Area -->
+
+
+	<!-- start footer Area -->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="footer-social">
+					<h4>Let's Connect</h4>
+					<a href="https://linkedin.com/in/samwel-k"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/samwelkinuthia"><i class="fa fa-github"></i></a>
+					<a href="https://www.gitshowcase.com/samwelkinuthia"><i class="fa fa-github-alt"></i></a>
+					<a href="https://www.instagram.com/sam.kinuthia_/"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+
+	</footer>
+	<!-- End footer Area -->
+
+	<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top">
+		<a title="Go to Top" href="#">
+			<i class="lnr lnr-arrow-up"></i>
+		</a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/mn-accordion.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.circlechart.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
