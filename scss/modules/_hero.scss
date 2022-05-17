@@ -1,0 +1,69 @@
+.hero {
+  height: 56vh;
+  background-color: var(--color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+
+    @include media-queries(atMedium) {
+      padding-bottom: 0;
+    }
+  }
+
+  &__img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 5px solid var(--color-accent);
+
+    @include media-queries(atMedium) {
+      width: 12rem;
+      height: 12rem;
+    }
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 0.5rem solid transparent;
+    }
+  }
+
+  &__title {
+    font-family: var(--font-special);
+    font-weight: var(--font-black);
+    font-size: 4.8rem;
+    line-height: 1.05;
+    color: var(--color-main);
+
+    @include media-queries(atMediumLarge) {
+      font-size: 4.2rem;
+    }
+
+    @include media-queries(atMediumLarge) {
+      font-size: 3.6rem;
+    }
+
+    @include media-queries(atMedium) {
+      font-size: 3.2rem;
+    }
+
+    @include media-queries(atSmall) {
+      font-size: 2.4rem;
+    }
+  }
+}

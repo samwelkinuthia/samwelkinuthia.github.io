@@ -1,0 +1,79 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+
+  &__box {
+    background-color: var(--color-white);
+
+    &:nth-child(1),
+    &:nth-child(4) {
+      flex-basis: calc(40% - 4rem);
+    }
+
+    &:nth-child(1),
+    &:nth-child(3) {
+      align-self: flex-end;
+    }
+
+    &:nth-child(2),
+    &:nth-child(4) {
+      align-self: flex-start;
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      flex-basis: calc(50% - 4rem);
+    }
+
+    @include media-queries(atMediumLarge) {
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &__info {
+    padding: 2rem;
+  }
+
+  &__img {
+    max-height: 42rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    margin: 1rem 0;
+    color: var(--color-main);
+
+    @include media-queries(atMedium) {
+      font-size: 2rem;
+    }
+  }
+
+  &__link {
+    display: block;
+    text-align: right;
+    font-size: 3.6rem;
+    font-weight: var(--font-semi-bold);
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--color-main);
+    }
+  }
+}
+
+#portfolio {
+  @include media-queries(atMediumLarge) {
+    margin-top: 4rem;
+  }
+}

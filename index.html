@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my little corner on the web</title>
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- SplideJs Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css" />
+  <!-- App Styles -->
+  <link rel="stylesheet" href="styles/app.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="animate__animated animate__slideInDown">
+      <div class="container">
+        <nav class="navigation">
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="btn btn--main" href="assets/Samwel_Kinuthia_Resume.pdf" download><i class="bi bi-download"></i> Resume</a>
+        </nav>
+
+        <h1 class="header__logo">
+          <a href="/">
+            <span>Sam</span>
+            <span>Kinuthia</span>
+          </a>
+        </h1>
+
+        <div class="header__contact">
+          <a href="mailto:kinuthia.samwel@yahoo.com">kinuthia.samwel@yahoo.com</a>
+          <a class="btn btn--light" href="assets/resume.pdf" download>
+            <i class="bi bi-download"></i> Resume
+          </a>
+        </div>
+
+        <div class="header__mobile">
+          <button id="navigation-button">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__img">
+          <img src="assets/me.png" alt="Profile Picture" />
+        </div>
+        <h1 class="hero__title animate__animated animate__slideInUp">
+          Software Developer <br />
+        </h1>
+        <p class="hero__content animate__animated animate__slideInUp">
+          I am a Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.
+        </p>
+        <ul class="social animate__animated animate__slideInLeft">
+          <li>
+            <a href="https://linkedin.com/in/samwel-k/"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/samwelkinuthia"><i class="bi bi-github"></i></a>
+          </li>
+          <!-- <li>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">About</h2>
+        <p class="section__subtitle">Few things about me</p>
+      </div>
+      <div class="about">
+        <h3 class="about__intro">👋 Hi, I'm Sam Kinuthia</h3>
+        <p class="about__bio">
+          > Computer engineering graduate looking to start out a career in software engineering. My skills include
+          software engineering fundamentals with a focus on efficient code and responsive design.
+        </p>
+        <p>> I enjoy the simple things, like a cup of tea by the fireplace..
+          (If i had one)</p>
+        <a class="about__link" href="#contact">Contact Me<i class="bi bi-arrow-right"></i></a>
+
+        <h4 class="about__skillsTitle">Skills</h4>
+        <p>Languages</p>
+        <ul class="about__skillsList">
+          <li class="btn btn--light">JavaScript</li>
+          <li class="btn btn--light">HTML/CSS/SCSS/Bootstrap
+          <li>
+          <li class="btn btn--light">Ruby</li>
+          <li class="btn btn--light">Bash</li>
+        </ul>
+        <br>
+        <p>Frameworks</p>
+        <ul class="about__skillsList">
+          <li class="btn btn--light">React.js</li>
+          <li class="btn btn--light">Node.js</li>
+          <li class="btn btn--light">Express.js</li>
+          <li class="btn btn--light">Bootstrap
+          <li>
+          <li class="btn btn--light">Ruby on Rails</li>
+        </ul>
+        <br>
+        <p>Tools</p>
+        <ul class="about__skillsList">
+          <li class="btn btn--light">Linux</li>
+          <li class="btn btn--light">Git</li>
+          <li class="btn btn--light">Heroku</li>
+          <li class="btn btn--light">AWS(EC2)</li>
+          <li class="btn btn--light">MongoDB</li>
+          <li class="btn btn--light">PostgreSQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section animate__animated animate__slideInUp" id="portfolio">
+    <div class="container">
+      <div class="section__header section__header">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__subtitle">Some of the stuff I've worked on</p>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/cycle.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Cycle System</h3>
+            <p class="portfolio__content">
+              IOT Energy transfer application based on solar microgrid technology. <br>
+              Enables users to track their energy transactions by providing a web interface that interacts with the Cycle smart meters.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Node.js</li>
+              <li class="btn btn--light">React.js
+              <li>
+              <li class="btn btn--light">IBM Cloudant</li>
+            </ul>
+            <a class="portfolio__link" href="https://www.cyclesystem.org/" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/dgs.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Dog Care System</h3>
+            <p class="portfolio__content">
+              Dog care system with sound recognition, feeding mechanism and supporting web application. <br>
+              Sound classifcation is done for the "bark", "growl" and "whine" sounds that can each be used to determine the dog's mental/physical state. Scheduling
+              is done for deworming, feeding and grooming.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Node.js</li>
+              <li class="btn btn--light">React.js
+              <li>
+              <li class="btn btn--light">MongoDB</li>
+              <li class="btn btn--light">Raspberry Pi</li>
+            </ul>
+            <a class="portfolio__link" href="https://github.com/samwelkinuthia/Dog-care-system" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/ds.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Dictionary Scrapper</h3>
+            <p class="portfolio__content">
+              This web application provides a way to extract and tabulate text from webpages. It provides a sorted list of the most occuring words on a webpage as well as their respective counts. e.g. The word "Star" in
+              <i>https://en.wikipedia.org/wiki/Star_Wars</i> appears 114 times. The app can also take two URLs and return the following:
+
+              A list of words unique to each URL.
+              A list of words present in both URLs.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Node.js</li>
+              <li class="btn btn--light">React.js
+              <li class="btn btn--light">Heroku</li>
+            </ul>
+            <a class="portfolio__link" href="https://github.com/samwelkinuthia/diction" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/mall3.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Mall-E</h3>
+            <p class="portfolio__content">
+              Web application for mall owners to manage their malls
+              Features an API that provides the collected mall data to third parties.
+              Product upload in the different stores can be done using CSV.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+              <li class="btn btn--light">Ruby on Rails</li>
+              <li class="btn btn--light">Heroku</li>
+              <li class="btn btn--light">SCSS</li>
+              <li class="btn btn--light">PostgreSQL</li>
+            </ul>
+            <a class="portfolio__link" href="https://mall3.herokuapp.com/" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/portfolio-04.jpg" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Three dots</h3>
+            <p class="portfolio__content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos
+              pariatur dolor vitae assumenda, porro quaerat corporis quos placeat a alias
+              molestiae, totam, dolore cum perspiciatis. Voluptate dolorem doloremque nobis.
+            </p>
+            <a class="portfolio__link" href="#">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div> -->
+      </div>
+      <div class="section__footer">
+        <a href="https://github.com/samwelkinuthia">
+          More Projects
+          <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section animate__animated animate__slideInUp" id="portfolio">
+    <div class="container">
+      <div class="section__header section__header">
+        <h2 class="section__title">Web Dev work</h2>
+        <p class="section__subtitle">Some of the websites I've built</p>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/whiteleaf.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">White Leaf Kenya</h3>
+            <p class="portfolio__content">
+              Website for the white leaf kenya tech company.
+            </p>
+            <br>
+            <ul class="about__skillsList">
+            </ul>
+            <a class="portfolio__link" href="https://www.whiteleaf.co.ke/" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img class="portfolio__img" src="assets/gf.png" alt="Portfolio Items" />
+          <div class="portfolio__info">
+            <h3 class="portfolio__title">Greg Forster</h3>
+            <p class="portfolio__content">
+              Life coach landing page. Built using the Wix CMS.
+            </p>
+            <a class="portfolio__link" href="https://gregforstercoaching.com/" target="_blank">
+              <i class="bi bi-arrow-up-right-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <!-- <section class="container">
+    <div class="section" id="testimonials">
+      <div class="section__header section__header--center">
+        <h2 class="section__title">People Says</h2>
+        <p class="section__subtitle">What others think about me</p>
+      </div>
+      <div class="testimonials">
+        <div class="splide">
+          <div class="splide__track">
+            <div class="splide__list">
+              <div class="testimonials__box splide__slide">
+                <span class="testimonials__sign">
+                  <i class="bi bi-chat-square-quote"></i>
+                </span>
+                <p class="testimonials__quotes">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, maxime
+                  corporis deleniti distinctio ullam, accusamus debitis ratione unde rerum illo
+                  sit laudantium molestiae ipsum praesentium neque sed perferendis! Blanditiis,
+                  debitis.
+                </p>
+                <div class="testimonials__author">
+                  <div class="testimonials__authorInfo">
+                    <h4>Dennis Ivy</h4>
+                    <p>Instructor & Youtuber</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__box splide__slide">
+                <span class="testimonials__sign">
+                  <i class="bi bi-chat-square-quote"></i>
+                </span>
+                <p class="testimonials__quotes">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, maxime
+                  corporis deleniti distinctio ullam, accusamus debitis ratione unde rerum illo
+                  sit laudantium molestiae ipsum praesentium neque sed perferendis! Blanditiis,
+                  debitis.
+                </p>
+                <div class="testimonials__author">
+                  <div class="testimonials__authorInfo">
+                    <h4>Shahriar Parvez</h4>
+                    <p>Web Developer & UI Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__box splide__slide">
+                <span class="testimonials__sign">
+                  <i class="bi bi-chat-square-quote"></i>
+                </span>
+                <p class="testimonials__quotes">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, maxime
+                  corporis deleniti distinctio ullam, accusamus debitis ratione unde rerum illo
+                  sit laudantium molestiae ipsum praesentium neque sed perferendis! Blanditiis,
+                  debitis.
+                </p>
+                <div class="testimonials__author">
+                  <div class="testimonials__authorInfo">
+                    <h4>Praveen M.</h4>
+                    <p>Python, Django Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="section__header section__header--center">
+      <h2 class="section__title">Contact Me</h2>
+      <p class="section__subtitle">Reach out to me, 24/7</p>
+    </div>
+    <div class="container">
+      <div class="contact">
+        <div class="contact__info">
+          <p>Call Me: <a href="tel:+254715301424">+254715301424</a></p>
+          <p>Email: <a href="mailto:kinuthia.samwel@yahoo.com?subject=Inquiry">kinuthia.samwel@yahoo.com<a>
+                <p>
+        </div>
+        <!--
+        <form class="contact__form" action="#" method="post">
+          <div class="contact__fields">
+            <label for="name">Name</label>
+            <input type="name" name="name" id="name" placeholder="Your Name" />
+          </div>
+          <div class="contact__fields">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email Address" />
+          </div>
+          <div class="contact__fields">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Write Message..."></textarea>
+          </div>
+          <div class="contact__fields contact__fields--action">
+            <button class="btn btn--accent" type="submit">
+              Send Message <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </form> -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__copyright">
+        <p>-2022-</p>
+      </div>
+      <div class="footer__social">
+        <ul class="social">
+          <li>
+            <a href="https://linkedin.com/in/samwel-k/"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/samwelkinuthia"><i class="bi bi-github"></i></a>
+          </li>
+          <!-- <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SplideJs v3 -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- App Scripts -->
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>

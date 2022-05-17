@@ -1,0 +1,71 @@
+.about {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 75rem;
+
+  &__intro {
+    font-size: 5.6rem;
+    color: var(--color-main);
+
+    @include media-queries(aLarge) {
+      font-size: 4.2rem;
+    }
+
+    @include media-queries(atMediumLarge) {
+      font-size: 3.2rem;
+    }
+
+    @include media-queries(atSmall) {
+      font-size: 2.4rem;
+    }
+  }
+
+  &__bio {
+    line-height: 1.8;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--color-accent);
+    font-weight: var(--font-semi-bold);
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border-bottom: 2.5px solid var(--color-accent);
+
+    &:hover {
+      color: var(--color-main);
+    }
+  }
+
+  &__skillsTitle {
+    color: var(--color-main);
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+
+    @include media-queries(atMediumLarge) {
+      font-size: 2rem;
+    }
+  }
+
+  &__skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2rem;
+
+    @include media-queries(atMediumLarge) {
+      gap: 1.5rem;
+    }
+
+    & > li.btn {
+      color: var(--color-main);
+
+      &:hover {
+        color: var(--color-light);
+        cursor: auto;
+      }
+    }
+  }
+}

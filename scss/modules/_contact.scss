@@ -1,0 +1,73 @@
+.contact {
+  &__info {
+    p {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-weight: var(--font-bold);
+      color: var(--color-main);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--color-accent);
+      transition: all 0.3s ease-in-out;
+
+      @include media-queries(atMediumLarge) {
+        font-size: 2rem;
+      }
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+
+    .social {
+      justify-content: center;
+    }
+  }
+
+  &__form {
+    width: 100%;
+    max-width: 60rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__fields {
+    &--action {
+      text-align: center;
+    }
+
+    label {
+      position: absolute;
+      left: -9999px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 1.5rem;
+      background: var(--color-white);
+      border: 2px solid var(--color-light);
+    }
+    textarea {
+      resize: none;
+      height: 15rem;
+    }
+
+    button {
+      font-size: 1.6rem;
+      display: inline-block;
+      text-align: center;
+      padding: 1.5rem 2.5rem;
+
+      @include media-queries(atMediumLarge) {
+        font-size: 1.4rem;
+        width: 100%;
+      }
+    }
+  }
+}

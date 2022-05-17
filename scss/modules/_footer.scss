@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--color-main);
+
+  & > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media-queries(atMediumLarge) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      gap: -1rem;
+    }
+  }
+
+  &__copyright {
+    color: var(--color-light);
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1.5rem 0;
+
+    a {
+      color: var(--color-accent);
+    }
+  }
+
+  &__social {
+    @include media-queries(atMediumLarge) {
+      padding-top: 2rem;
+    }
+    .social > li > a {
+      font-size: 2rem;
+    }
+  }
+}
